@@ -8,7 +8,7 @@
     "nodemon": "^2.0.12"
   },
   "scripts": {
-    "start": "nodemon --watch src/ src/index.js",
+    "start": "nodemon --watch src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/eun-seong/banggo-crawler-js#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.10"
+    "cheerio": "^1.0.0-rc.10",
+    "puppeteer": "^10.2.0"
   }
 }
