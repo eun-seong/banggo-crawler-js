@@ -2,9 +2,13 @@
   "name": "banggo-crawler",
   "description": "배민문방구 크롤러",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "src/index.js",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
   "scripts": {
+    "start": "nodemon --watch src/ src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
