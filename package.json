@@ -1,0 +1,25 @@
+{
+  "name": "banggo-crawler",
+  "description": "배민문방구 크롤러",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eun-seong/banggo-crawler-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eun-seong/banggo-crawler-js/issues"
+  },
+  "homepage": "https://github.com/eun-seong/banggo-crawler-js#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
